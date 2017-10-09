@@ -1,10 +1,15 @@
 module.exports = {
+  // parser: 'babel-eslint',
   env: {
     browser: true,
     commonjs: true,
     es6: true
   },
-  extends: 'airbnb-base',
+  // extends: ['airbnb-base'],
+  extends: ['plugin:vue/recommended', 'airbnb-base'],
+  // plugins: [
+  //   'vue'
+  // ],
   rules: {
     quotes: [2, 'single'],
     semi: 2,
